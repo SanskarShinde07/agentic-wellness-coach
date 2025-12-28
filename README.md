@@ -1,29 +1,37 @@
-# Agentic Wellness Coaching System
+# Agentic Wellness Coach 🧠💪
 
-## Problem Statement
-Agentic Systems for Healthcare and Fitness — multi-domain wellness coaching (fitness, nutrition, mental health, preventive). Wellness-only; no medical diagnosis or treatment.
+An AI-powered **agentic wellness coach** that uses a **Plan–Act–Observe–Adapt (PAOA)** loop to help users build sustainable habits across fitness, nutrition, and mental wellness.
 
-## Why an Agentic System?
-- Goal-oriented: explicit long-term goals per domain
-- Planning: multi-step plans, not single responses
-- Autonomy: independent decisions on adaptations
-- Observation: tracks adherence and difficulty
-- Adaptation: plan changes based on feedback
-- Reasoning transparency: logs every step
+---
 
-## Domains Covered
-- Fitness & habit formation
-- Nutrition planning & dietary guidance
-- Mental health & stress management (non-clinical)
-- Preventive wellness monitoring (non-diagnostic)
+## 🚀 Features
+- Personalized weekly wellness plans
+- Agent-based reasoning (Planner, Decision, Feedback agents)
+- Dynamic adaptation based on completed/skipped actions
+- Multi-domain support: fitness, nutrition, mental health
+- Interactive Streamlit dashboard
 
-## Agent Roles
-- PlannerAgent: identify goals, create/adapt plans per domain
-- DecisionAgent: decide when/how to adapt, choose interventions, goal escalation
-- FeedbackAgent: observe completion, infer difficulty, aggregate feedback
+---
 
-## Agent Loop
-Plan → Act → Observe → Adapt (logged every iteration)
+## 🧠 Agent Architecture
+- **Planner Agent**: Creates weekly plans based on user profile
+- **Decision Agent**: Tracks user actions (completed/skipped)
+- **Feedback Agent**: Observes adherence and adapts future plans
 
-## Architecture
-- CLI: 
+---
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- Agent-based architecture
+- JSON-based persistence
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+
